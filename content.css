@@ -1,0 +1,3 @@
+.article-body--truncated:after {
+    display: none !important;
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Farosito",
+    "description": "No pago un euro hulio!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["scripting"],
+    "content_scripts": [
+        {
+            "css": [ 
+                "content.css"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "matches": [
+                "https://www.farodevigo.es/*"
+            ]
+        }
+    ]
+}
